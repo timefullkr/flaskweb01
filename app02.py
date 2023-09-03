@@ -14,11 +14,11 @@ def pageApple():
         </h2>
     """
 
-@app.route('/<path:page1>')
-def page(page1):
+@app.route('/<path:page>')
+def page(page):
      return f"""
         <h1>
-            Hello, {page1}
+            Hello, {page}
         </h2>
     """
 
